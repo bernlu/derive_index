@@ -1,0 +1,13 @@
+[package]
+name = "derive_index"
+version = "1.0.0"
+edition = "2018"
+authors = ["Lukas Berner <st165674@stud.uni-stuttgart.de>"]
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "1.0"
+syn = { version = "1.0"}
+quote = "1.0"
